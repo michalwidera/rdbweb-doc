@@ -9,6 +9,17 @@ summary: Dokument zawiera dokumentację projektu RetractorDB
 
 {% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
 
+$$
+c_{n}=\left\{
+\begin{array}{cc}
+a_{n}|b_{ \left\lfloor  \frac{n\Delta _{a}}{\Delta _{b}} \right\rfloor }  & \Delta
+_{c}=\Delta _{a} \\
+a_{ \left\lfloor  \frac {n\Delta _{b}}{\Delta _{a}} \right\rfloor }|b_{n} & \Delta
+_{c}=\Delta _{b}
+\end{array}
+\right. ,\Delta _{c}=\min \left( \Delta _{a},\Delta _{b}\right)
+$$
+
 ## Build the Theme
 
 Follow these instructions to build the theme.

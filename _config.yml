@@ -50,6 +50,12 @@ feedback_email: tomjoht@gmail.com
 highlighter: rouge
 # library used for syntax highlighting
 
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: true # false (default),
+mathjax_autoNumber: true # false (default), true
+
 markdown: kramdown
 kramdown:
  input: GFM
