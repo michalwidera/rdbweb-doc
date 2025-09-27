@@ -14,8 +14,6 @@ export _JEKYLL_PORT=${1:-4000}
 
 docker run --rm \
   -it \
-  --ipc=host \
-  --net=host \
   --publish ${_JEKYLL_PORT}:${_JEKYLL_PORT} \
   --volume="${PWD}:/srv/jekyll:Z" \
   --volume="${PWD}/vendor:/usr/local/bundle:Z" \

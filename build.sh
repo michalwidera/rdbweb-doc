@@ -10,8 +10,6 @@ _JEKYLL_VERSION="${JEKYLL_VERSION:-3.8}"
 
 docker run --rm \
   -it \
-  --ipc=host \
-  --net=host \
   --volume="${PWD}:/srv/jekyll:Z" \
   --volume="${PWD}/vendor:/usr/local/bundle:Z" \
   jekyll/jekyll:${_JEKYLL_VERSION} \
